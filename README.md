@@ -42,7 +42,7 @@ O Ararajuba é uma rede social simples com recursos essenciais para interação 
 
 ### Fluxo do Usuário
 
-1. **Cadastro** (`signup.php`) [Detalhes](signup.md.md)
+1. **Cadastro** (`signup.php`) [Detalhes](signup.md)
 
    - Validação assíncrona de nomes de usuário disponíveis
    - Armazenamento seguro de senhas usando hash
