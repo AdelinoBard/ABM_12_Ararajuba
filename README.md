@@ -16,7 +16,7 @@ O Ararajuba é uma rede social simples com recursos essenciais para interação 
 
 ### Arquivos Principais
 
-#### `functions.php`
+#### `functions.php` [Detalhes](functions.md)
 
 - **Funções**:
   - `destroySession`: Encerra sessões de usuários.
@@ -25,13 +25,13 @@ O Ararajuba é uma rede social simples com recursos essenciais para interação 
   - Uso de PDO para conexão com banco de dados
   - Instruções preparadas para prevenir SQL injection
 
-#### `header.php`
+#### `header.php` [Detalhes](header.md)
 
 - Inicializa sessões
 - Define estrutura HTML comum a todas as páginas
 - Controle de menus baseado no estado de login
 
-#### `setup.php`
+#### `setup.php` [Detalhes](setup.md)
 
 - Configuração inicial do banco de dados
 - Cria tabelas:
@@ -42,17 +42,17 @@ O Ararajuba é uma rede social simples com recursos essenciais para interação 
 
 ### Fluxo do Usuário
 
-1. **Cadastro** (`signup.php`)
+1. **Cadastro** (`signup.php`) [Detalhes](signup.md.md)
 
    - Validação assíncrona de nomes de usuário disponíveis
    - Armazenamento seguro de senhas usando hash
 
-2. **Login** (`login.php`)
+2. **Login** (`login.php`) [Detalhes](login.md)
 
    - Autenticação segura com `password_verify()`
    - Gerenciamento de sessões
 
-3. **Perfil** (`profile.php`)
+3. **Perfil** (`profile.php`) [Detalhes](profile.md)
 
    - Upload e processamento de imagens:
      - Redimensionamento
@@ -62,11 +62,11 @@ O Ararajuba é uma rede social simples com recursos essenciais para interação 
 
 4. **Interação Social**
 
-   - `members.php`: Lista de membros e gestão de amizades
-   - `friends.php`: Visualização de amigos e seguidores
-   - `messages.php`: Sistema de mensagens públicas/privadas
+   - `members.php` [Detalhes](members.md): Lista de membros e gestão de amizades
+   - `friends.php`[Detalhes](friends.md): Visualização de amigos e seguidores
+   - `messages.php`[Detalhes](messages.md): Sistema de mensagens públicas/privadas
 
-5. **Logout** (`logout.php`)
+5. **Logout** (`logout.php`) [Detalhes](logout.md)
    - Encerramento seguro de sessões
 
 ## Configuração do Banco de Dados
@@ -100,8 +100,8 @@ GRANT ALL PRIVILEGES ON ararajuba.* TO 'abm'@'localhost';
 
 ## Estilos e Scripts
 
-- `styles.css`: Define a aparência visual
-- `javascript.js`: Contém funções auxiliares para manipulação DOM
+- `styles.css` [Detalhes](styles.md): Define a aparência visual
+- `javascript.js`[Detalhes](javascript.md): Contém funções auxiliares para manipulação DOM
 
 ## Requisitos
 
