@@ -1,4 +1,4 @@
-# Documentação do Projeto Ararajuba
+# Ararajuba
 
 ## Visão Geral
 
